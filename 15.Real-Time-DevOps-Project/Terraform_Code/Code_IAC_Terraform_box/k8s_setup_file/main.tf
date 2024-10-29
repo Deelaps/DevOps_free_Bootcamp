@@ -131,7 +131,7 @@ resource "aws_eks_node_group" "node2" {
   disk_size      = 20
 
   remote_access {
-    ec2_ssh_key = "MYLABKEY"
+    ec2_ssh_key = "ssh-key"
   }
 
   tags = {
